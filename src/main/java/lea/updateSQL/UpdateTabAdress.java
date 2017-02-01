@@ -28,7 +28,7 @@ public class UpdateTabAdress extends SqlUpdate{
         super.declareParameter(new SqlParameter("town", Types.VARCHAR));
         super.declareParameter(new SqlParameter("second_nameWhere", Types.VARCHAR));
 
-        System.out.println("**********************************************************************");
+        System.out.println("**********************************************************************-");
         System.out.println(SQL_UPDATE_CONTACT);
         System.out.println("**********************************************************************");
     }
